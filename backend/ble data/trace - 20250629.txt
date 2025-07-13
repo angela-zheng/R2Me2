@@ -1,0 +1,191 @@
+Jun 29 16:48:45.198  HCI Event        0x0000  DROID              LE - Ext ADV - 1 Report - Normal - Random - EA:58:AB:C8:B2:08 - RSSI: -61 dBm - Manufacturer Specific Data - DROID - Channel 39  3E 2E 0D 01 13 27 01 08 B2 C8 AB 58 EA 81 00 FF 7F C3 00 00 00 00 00 00 00 00 00 14 02 01 06 09 FF 83 01 03 04 44 81 82 07 06 09 44 52 4F 49 44  
+Jun 29 16:48:45.201  HCI Event        0x0000  DROID              LE - Ext ADV - 1 Report - Normal - Random - EA:58:AB:C8:B2:08 - RSSI: -61 dBm - Channel 39  3E 1A 0D 01 1B 27 01 08 B2 C8 AB 58 EA 81 00 FF 7F C3 00 00 00 00 00 00 00 00 00 00  
+Jun 29 16:48:45.222  HCI Command      0x0000  DROID              LE Add Device To Filter Accept List - Random - EA:58:AB:C8:B2:08  11 20 07 01 08 B2 C8 AB 58 EA  
+Jun 29 16:48:45.353  HCI Event        0x0000  DROID              LE - Ext ADV - 1 Report - Normal - Random - EA:58:AB:C8:B2:08 - RSSI: -59 dBm - Manufacturer Specific Data - DROID - Channel 37  3E 2E 0D 01 13 A5 01 08 B2 C8 AB 58 EA 81 00 FF 7F C5 00 00 00 00 00 00 00 00 00 14 02 01 06 09 FF 83 01 03 04 44 81 82 07 06 09 44 52 4F 49 44  
+Jun 29 16:48:45.353  HCI Event        0x005C  DROID              LE - Enhanced Connection Complete - Central - Random - EA:58:AB:C8:B2:08 local - 00:00:00:00:00:00 peer - 00:00:00:00:00:00 - Conn Interval: 30 ms  3E 1F 0A 00 5C 00 00 01 08 B2 C8 AB 58 EA 00 00 00 00 00 00 00 00 00 00 00 00 18 00 00 00 48 00 00  
+Jun 29 16:48:45.364  HCI Command      0x0000  DROID              LE Remove Device From Filter Accept List - Random - EA:58:AB:C8:B2:08  12 20 07 01 08 B2 C8 AB 58 EA  
+Jun 29 16:48:45.389  HCI Command      0x005C  DROID              Read Remote Version Information - Connection Handle: 0x005C  1D 04 02 5C 00  
+Jun 29 16:48:45.405  HCI Event        0x005C  DROID              Read Remote Version Information Complete  0C 08 00 5C 00 0A 59 00 CD 00  
+Jun 29 16:48:45.405  HCI Command      0x005C  DROID              LE Read Remote Used Features - Connection Handle: 0x005C  16 20 02 5C 00  
+Jun 29 16:48:45.466  HCI Event        0x005C  DROID              LE - Read Remote Used Features Complete - DPLE Unsupported - 2MPHY Supported  3E 0C 04 00 5C 00 05 41 00 00 00 00 00 00  
+Jun 29 16:48:45.827  HCI Event        0x005C  DROID              LE - PHY Update Complete  3E 06 0C 00 5C 00 02 02  
+Jun 29 16:48:45.836  Magnet Send      0x005C  DROID              No Decoder Specified  5C 00 0B 00 07 00 3A 00 09 05 0B 33 15 00 00  
+Jun 29 16:48:45.840  ATT Send         0x005C  DROID              Exchange MTU Request - MTU: 293  5C 00 07 00 03 00 04 00 02 25 01  
+Jun 29 16:48:45.869  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:48:45.886  ATT Receive      0x005C  DROID              Exchange MTU Response - MTU: 23  5C 20 07 00 03 00 04 00 03 17 00  
+Jun 29 16:48:45.890  ATT Send         0x005C  DROID              Read By Type Request - Start Handle: 0x000A - End Handle: 0x000A - UUID: GATT Characteristic Declaration  5C 00 0B 00 07 00 04 00 08 0A 00 0A 00 03 28  
+Jun 29 16:48:45.947  ATT Receive      0x005C  DROID              Error Response - Attribute Handle: 0x000A - Error Code: Attribute Not Found (0x0A)  5C 20 09 00 05 00 04 00 01 08 0A 00 0A  
+Jun 29 16:48:45.952  ATT Send         0x005C  DROID              Write Request - Handle:0x000E - Value: 0100  5C 00 09 00 05 00 04 00 12 0E 00 01 00  
+Jun 29 16:48:45.979  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:48:46.006  ATT Receive      0x005C  DROID              Write Response  5C 20 05 00 01 00 04 00 13  
+Jun 29 16:48:46.032  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:48:46.439  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2220 01  5C 00 0A 00 06 00 04 00 52 10 00 22 20 01  
+Jun 29 16:48:46.440  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 8000 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 80 00 01 2C 00 00  
+Jun 29 16:48:46.440  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2220 01  5C 00 0A 00 06 00 04 00 52 10 00 22 20 01  
+Jun 29 16:48:46.457  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:48:46.461  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 8100 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 81 00 01 2C 00 00  
+Jun 29 16:48:46.495  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 4907  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 49 07  
+Jun 29 16:48:46.507  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:48:46.515  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 2F32 8145 4B82 0744 0111 1101 103F 1E00  5C 20 17 00 13 00 04 00 1B 0D 00 2F 32 81 45 4B 82 07 44 01 11 11 01 10 3F 1E 00  
+Jun 29 16:48:46.515  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 2F32 8145 4B82 0744 0111 1101 103F 1E00  5C 20 17 00 13 00 04 00 1B 0D 00 2F 32 81 45 4B 82 07 44 01 11 11 01 10 3F 1E 00  
+Jun 29 16:48:46.521  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:48:47.529  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F00  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 00  
+Jun 29 16:48:47.530  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F00  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 00  
+Jun 29 16:48:47.549  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:48:47.562  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1802  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 02  
+Jun 29 16:48:47.563  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1802  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 02  
+Jun 29 16:48:47.610  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:48:48.980  ATT Send         0x005C  DROID              Read By Type Request - Start Handle: 0x0001 - End Handle: 0x0009 - UUID: Device Name  5C 00 0B 00 07 00 04 00 08 01 00 09 00 00 2A  
+Jun 29 16:48:49.034  ATT Receive      0x005C  DROID              Read By Type Response  5C 20 0D 00 09 00 04 00 09 07 03 00 44 52 4F 49 44  
+Jun 29 16:48:49.061  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:48:57.054  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 4BFF  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 4B FF  
+Jun 29 16:48:57.066  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F0A  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 0A  
+Jun 29 16:48:57.077  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:48:57.096  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1800  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 00  
+Jun 29 16:48:57.158  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:48:59.331  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 82A0 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 82 A0 01 2C 00 00  
+Jun 29 16:48:59.409  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:48:59.626  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:48:59.626  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:48:59.664  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 8200 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 82 00 01 2C 00 00  
+Jun 29 16:48:59.756  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:00.266  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 82A0 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 82 A0 01 2C 00 00  
+Jun 29 16:49:00.351  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:00.765  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.765  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.765  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:00.794  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:00.856  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.856  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.886  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:00.886  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:00.915  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.915  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.931  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 8200 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 82 00 01 2C 00 00  
+Jun 29 16:49:00.946  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:00.946  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:00.976  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.977  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:00.998  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:01.006  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:01.006  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:01.036  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:01.036  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:01.096  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:01.096  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:01.096  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:01.124  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:01.498  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 02A0 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 02 A0 01 2C 00 00  
+Jun 29 16:49:01.724  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:01.905  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:01.905  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:01.905  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:01.934  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:01.934  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:01.966  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:01.966  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:01.996  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:01.996  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:02.027  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:02.027  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:02.056  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:02.056  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:02.398  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 0200 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 02 00 01 2C 00 00  
+Jun 29 16:49:02.416  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:02.416  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:02.416  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:02.445  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:02.466  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:02.505  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:02.505  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:02.505  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:02.534  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:02.564  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:02.564  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:02.593  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4183  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 83  
+Jun 29 16:49:02.595  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4183  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 83  
+Jun 29 16:49:03.136  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4401 A000  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 01 A0 00  
+Jun 29 16:49:03.264  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F00  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 00  
+Jun 29 16:49:03.268  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:03.297  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1800  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 00  
+Jun 29 16:49:03.363  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:49:03.376  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4103  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 03  
+Jun 29 16:49:03.376  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4103  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 03  
+Jun 29 16:49:03.376  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:03.404  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:03.436  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:03.436  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:03.466  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:03.466  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:05.768  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1000  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 10 00  
+Jun 29 16:49:05.981  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:07.631  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F02  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 02  
+Jun 29 16:49:07.664  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1800  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 00  
+Jun 29 16:49:07.742  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:49:10.165  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1100  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 11 00  
+Jun 29 16:49:10.391  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:11.898  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F03  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 03  
+Jun 29 16:49:11.931  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1800  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 00  
+Jun 29 16:49:12.104  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0002    13 05 01 5C 00 02 00  
+Jun 29 16:49:13.836  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 82A0 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 82 A0 01 2C 00 00  
+Jun 29 16:49:14.053  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:14.414  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.414  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.447  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.447  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.565  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 8200 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 82 00 01 2C 00 00  
+Jun 29 16:49:14.624  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.624  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.654  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.654  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.684  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.684  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.714  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.714  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.744  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.744  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.775  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:14.775  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:14.777  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.806  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:14.806  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:14.806  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:14.835  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:14.835  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:14.835  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:14.864  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:15.102  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 02A0 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 02 A0 01 2C 00 00  
+Jun 29 16:49:15.344  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:15.555  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:15.555  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:15.555  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:15.586  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:15.586  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:15.616  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:15.616  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:15.646  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:15.646  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:15.676  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:15.676  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:15.706  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:15.706  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4184  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 84  
+Jun 29 16:49:15.736  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:15.736  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:16.032  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2942 0546 0200 012C 0000  5C 00 11 00 0D 00 04 00 52 10 00 29 42 05 46 02 00 01 2C 00 00  
+Jun 29 16:49:16.094  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:16.094  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4104  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 04  
+Jun 29 16:49:16.094  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:16.123  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4182  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 82  
+Jun 29 16:49:16.154  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:16.154  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4102  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 02  
+Jun 29 16:49:16.244  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4183  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 83  
+Jun 29 16:49:16.244  ATT Receive      0x005C  DROID              Handle Value Notification - Handle:0x000D - Value: 25B2 8045 4183  5C 20 0D 00 09 00 04 00 1B 0D 00 25 B2 80 45 41 83  
+Jun 29 16:49:16.274  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:16.965  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4401 A000  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 01 A0 00  
+Jun 29 16:49:17.109  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:17.798  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1F05  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 1F 05  
+Jun 29 16:49:17.831  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4400 1800  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 00 18 00  
+Jun 29 16:49:17.924  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:17.924  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
+Jun 29 16:49:17.999  ATT Send         0x005C  DROID              Write Command - Handle:0x0010 - Value: 2742 0F44 4401 A000  5C 00 0F 00 0B 00 04 00 52 10 00 27 42 0F 44 44 01 A0 00  
+Jun 29 16:49:18.220  HCI Event        0x005C  DROID              Number Of Completed Packets - Handle: 0x005C - Packets: 0x0001    13 05 01 5C 00 01 00  
