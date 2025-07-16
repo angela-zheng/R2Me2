@@ -1,6 +1,6 @@
 # 🛠 Droid Controller
 
-> ⚠️ *Disclaimer: This project does **not** reverse-engineer or modify Disney’s official droids.*
+> ⚠️ *Disclaimer: This project is just for fun and does **not** reverse-engineer or modify Disney’s official droids.*
 
 🚧 **Project Status**: Work in progress  
 ![alt text](image.png)
@@ -16,7 +16,7 @@ In the future, I plan to experiment with Arduino sensors to enable new types of 
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js (with Vite)
 - **Backend**: Flask (Python)
@@ -24,7 +24,7 @@ In the future, I plan to experiment with Arduino sensors to enable new types of 
 
 ---
 
-## 🧰 Setup Instructions
+## Setup Instructions
 
 ### 1. Backend (Python + Flask)
 
@@ -37,3 +37,7 @@ source .venv/bin/activate
 uv pip install -r pyproject.toml
 uv sync
 uv run
+```
+
+## References 
+https://medium.com/@baptistelaget/controlling-disneys-droids-from-droid-depots-with-webbluetooth-febbabe50587
