@@ -3,7 +3,7 @@
 > ⚠️ *Disclaimer: This project is just for fun and does **not** reverse-engineer or modify Disney’s official droids.*
 
 🚧 **Project Status**: Work in progress  
-<img src="image.png" alt="screenshot" width="200"/>
+<img src="image.png" alt="screenshot" width="500"/>
 
 The **Droid Controller** is a web application that connects to and controls Disney's astromech droids — the kind you might build at **Galaxy’s Edge** in Hollywood Studios.
 
