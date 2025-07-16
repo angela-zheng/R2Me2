@@ -13,6 +13,3 @@ ble data
 **/.pytest_cache 
 **/node_modules
 **/__pycache__
-
-
-
